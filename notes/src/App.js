@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import fire from './config/Fire';
+import fire from './config/fire';
 import Login from './components/LogInRegister';
 import Home from './components/Home';
 import './App.css';

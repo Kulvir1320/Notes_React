@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import Note from './Note/Note';
 import AddNewNote from './AddNewNote/AddNewNote';
 import './Notes.css';
-import fire from '../../config/Fire';
+import fire from '../../config/fire';
 import Spinner from '../../assets/loader.gif';
 
 class Notes extends Component {
