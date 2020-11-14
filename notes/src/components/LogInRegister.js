@@ -47,7 +47,7 @@ class Login extends Component {
             ( <div className="Error"> {this.state.fireErrors} </div> ) : null;
 
         let submitBtn = this.state.loginBtn ? 
-            (<input className="loginBtn" type="submit" onClick={this.login} value="Enter" />) : 
+            (<input className="loginBtn" type="submit" onClick={this.login} value="LogIn" />) : 
             (<input className="loginBtn" type="submit" onClick={this.register} value="Register" />);
 
         let login_register = this.state.loginBtn ?
@@ -60,15 +60,19 @@ class Login extends Component {
                 <div className="body">
                     {errorNotification}
                     <form>
+                        <br></br>
+                        <br></br>
                         <input type="text" 
                         value={this.state.email} 
                         onChange={this.handleChange} 
-                        name="email" />
+                        name="email"  placeholder="Please enter Email"/>
+                          <br></br>
+                        <br></br>
 
                         <input type="password" 
                         value={this.state.password} 
                         onChange={this.handleChange} 
-                        name="password" />
+                        name="password"  placeholder="Please enter Password"/>
 
                         {submitBtn}
                     </form>

@@ -9,7 +9,7 @@ body {
 }
 
 .form_block{
-    width: 80%;
+    width: 70%;
     display: table;
     margin-top: 10%;
     margin-left: auto;
@@ -17,14 +17,15 @@ body {
     background-color: rgba(0,0,0,.1);
     padding: 5px;
     border-radius: 5px;
+    font-size: 20px;
   }
   .form_block > #title{
-    background: #3d8577;
+    background: #1E90FF;
     padding: 10px;
    
     color: #fff;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -35,12 +36,14 @@ body {
     padding: 10px;
     display: table;
     width:97%;
-    height: 400px;
+    height: 350px;
   }
   
   input[type='text'],input[type='password'] {
+      font-size: 20px;
     height: 35px;
     width: 100%;
+    text-align: center;
     margin-bottom: 10px;
     box-sizing: border-box;
     padding: 4px 5px;
@@ -54,19 +57,22 @@ body {
     height: 35px;
     box-sizing: border-box;
     padding: 4px 10px;
-    background: #f5f4ea;
+    background: #1E90FF;
     border: 1px solid #d0d0d0;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
     cursor: pointer;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 40px;
   }
   .loginBtn:hover{
     background: #c3c3ba;
   }
   .registerBtn{
     float: right;
-    background: #3d8577;
+    background: #1E90FF;
     color: #fff;
     height: 35px;
     box-sizing: border-box;
@@ -77,9 +83,10 @@ body {
     border-radius: 3px;
     cursor: pointer;
     margin-top: -35px;
+    font-size: 22px;
   }
   .registerBtn:hover{
-    background: #2d6358;
+    background:#778899;
   }
   .Error{
     padding: 10px;
